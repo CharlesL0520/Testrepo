@@ -7,7 +7,7 @@ Used to create a new directory.
 The name of the directory you want to create
 
 
-// mkdir myrepo
+[mkdir myrepo]
 --------------------------------------------------------------------------------------------------------------------
 
 # Step 2 - (Go into the myrepo directory):
