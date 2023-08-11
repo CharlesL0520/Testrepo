@@ -6,7 +6,7 @@ Used to create a new directory.
 **(myrepo)**
 The name of the directory you want to create
 
-## mkdir myrepo
+<span style="text-decoration: underline;">mkdir myrepo</span>
 
 # Step 2 - (Go into the myrepo directory):
 
