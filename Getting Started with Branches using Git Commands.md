@@ -30,7 +30,7 @@ Create a new local repository using
 **(ls)**  
 The command to list files and directories.
 
-**(-la)**  
+**(-la)**
 '-l'option (long format) provides detailed information about each item, '-a' option (all) includes hidden  files and directories in the listing.
 
 **(.git)**
