@@ -18,7 +18,7 @@ The name of the directory you want to create
 
 # Step 3 - (In this myrepo directory create a new local git repository using the git init command):
 
-(int) 
+**(int)**
 Create a new local repository using
 
 
@@ -27,11 +27,13 @@ Create a new local repository using
 
 # Step 4 - ( verify by doing a directory listing):
 
-(ls)   
+**(ls)**  
 The command to list files and directories.
-(-la)  
+
+**(-la)**  
 '-l'option (long format) provides detailed information about each item, '-a' option (all) includes hidden  files and directories in the listing.
-(.git) 
+
+**(.git)**
 This is the argument provided to the 'ls' command. It specifies the directory you want to list, which is  the '.git' directory in this case.
 
 // ls -la .git
@@ -39,7 +41,7 @@ This is the argument provided to the 'ls' command. It specifies the directory yo
 
 # Step 5 - (create an empty file):
 
-(touch) 
+**(touch)**
 used to create or update file timestamps
 
 // touch newfile
@@ -47,17 +49,18 @@ used to create or update file timestamps
 
 Step 6 - (Add file "newfile" to the repo using the following):
 
-######
 // git add newfile
 --------------------------------------------------------------------------------------------------------------------
 
 # Step 7 - (Before committing the changes, need to tell git who we are.):
 
-(git config)
+**(git config)**
 Used to configure various settings and options for Git. (sets your global user email and username for Git) 
-(--global)
+
+**(--global)**
 The flag indicates that this configuration is applied globally for all repositories on your system.
-(user.)
+
+**(user.)**
 Configuration key for the user's email and name.
 
 // git config --global user.email "you@example.com"
@@ -66,9 +69,10 @@ Configuration key for the user's email and name.
 
 # Step 8 - (commit our changes):
 
-(git commit)
+**(git commit)**
 the command to create a new commit. Commits are snapshots of changes made to the repository.
-(-m)
+
+**(-m)**
 '-m' flag stands for "message," and it is used to provide a brief description of the changes you are committing
 
 // git commit -m "added newfile"
@@ -76,7 +80,7 @@ the command to create a new commit. Commits are snapshots of changes made to the
 
 # Step 9 - (To make subsequent changes in the repo, create a new branch(my1stbranch) in the local repostitory):
 
-(git branch)
+**(git branch)**
 The command to manage branches in Git.
 
 //git branch my1stbranch
@@ -89,7 +93,7 @@ The command to manage branches in Git.
 
 # Step 11 - (To work in the new branch(my1stbranch) issue, make it be the active branch):
 
-(git checkout)
+**(git checkout)**
 a command followed by the name of the branch(my1stbranch) you want to switch to, Git will update your working directory and switch the active branch to the specified branch "my1stbranch".
 
 // git checkout my1stbranch
@@ -102,7 +106,7 @@ Step 12 - (Verify that the new branch is now the active branch(the * is now next
 
 # Step (9 and 11) - (AS a shortcut to creating branch(my1stbranch) using git branch and then making it active using 'git checkout'):
 
-(-b)
+**(-b)**
 '-b' flag is used to create a new branch. 
 
 // git checkout -b my1stbranch
@@ -110,9 +114,10 @@ Step 12 - (Verify that the new branch is now the active branch(the * is now next
 
 # Step 13 - (adding some text to 'newfile'):
 
-(echo)
+**(echo)**
 Used to display text or messages in the terminal
-(>> )
+
+**(>> )**
 '>>' operator is used to append the output of the preceding command (in this case, the echoed text) to a file named "newfile."
 
 // echo 'Here is some text in my newfile.' >> newfile
@@ -120,7 +125,7 @@ Used to display text or messages in the terminal
 
 # Step 14 - (Verify the text has been added):
 
-(cat)
+**(cat)**
 Used to display the contents of a file in the terminal
 
 //cat newfile
@@ -159,9 +164,10 @@ Used to display the contents of a file in the terminal
 
 # Step 21 - (Sometimes you may not fully test your changes before comitting them and may have undesirable consequences, you can back out your changes ):
 
-(HEAD)
+**(HEAD)**
 Refers to the most recent commit in the current branch. It represents the commit you want to revert.
-(--no-edit)
+
+**(--no-edit)**
 This flag tells Git not to open the default text editor for you to modify the commit message. If you omit this flag, Git will open the editor for you to provide a commit message explaining the revert.
 
 //git revert HEAD --no-edit
@@ -189,9 +195,10 @@ This flag tells Git not to open the default text editor for you to modify the co
 --------------------------------------------------------------------------------------------------------------------
 # Step 22 - (Changes have been merged into 'master' branch, the 'my1stbranch' can be deleted):
 
-(git branch)
+**(git branch)**
 The command to manage branches in Git.
-(-d)
+
+**(-d)**
 '-d' flag is used to delete a branch
 
 //git branch -d my1stbranch
