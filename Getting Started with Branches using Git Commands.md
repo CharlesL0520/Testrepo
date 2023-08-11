@@ -1,8 +1,9 @@
 # Step 1 - (Create a myrepo directory):
 
-(mkdir)
+**(mkdir)**
 Used to create a new directory.
-(myrepo)
+
+**(myrepo)**
 The name of the directory you want to create
 
 
