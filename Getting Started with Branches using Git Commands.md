@@ -8,6 +8,9 @@ The name of the directory you want to create
 
 - mkdir myrepo
 
+
+
+
 # Step 2 - (Go into the myrepo directory):
 
 - cd myrepo
