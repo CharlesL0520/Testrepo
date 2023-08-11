@@ -47,7 +47,7 @@ used to create or update file timestamps
 // touch newfile
 --------------------------------------------------------------------------------------------------------------------
 
-Step 6 - (Add file "newfile" to the repo using the following):
+# Step 6 - (Add file "newfile" to the repo using the following):
 
 // git add newfile
 --------------------------------------------------------------------------------------------------------------------
