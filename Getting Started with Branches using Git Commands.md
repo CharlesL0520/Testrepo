@@ -1,23 +1,23 @@
-Step 1 - (Create a myrepo directory):
+# Step 1 - (Create a myrepo directory):
 
-# (mkdir)
+(mkdir)
 Used to create a new directory.
-# (myrepo)
+(myrepo)
 The name of the directory you want to create
 
 ######
 // mkdir myrepo
 --------------------------------------------------------------------------------------------------------------------
 
-Step 2 - (Go into the myrepo directory):
+# Step 2 - (Go into the myrepo directory):
 
 ######
 // cd myrepo
 --------------------------------------------------------------------------------------------------------------------
 
-Step 3 - (In this myrepo directory create a new local git repository using the git init command):
+# Step 3 - (In this myrepo directory create a new local git repository using the git init command):
 
-# (int) 
+(int) 
 Create a new local repository using
 
 ######
