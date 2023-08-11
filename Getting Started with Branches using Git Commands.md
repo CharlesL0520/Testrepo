@@ -9,10 +9,7 @@ Used to create a new directory.
 The name of the directory you want to create
 
 - mkdir myrepo
-#
-#
-#
-#
+<br><br><br><br><br>
 # Step 2 - (Go into the myrepo directory):
 
 - cd myrepo
