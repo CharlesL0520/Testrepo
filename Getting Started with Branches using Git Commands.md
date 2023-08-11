@@ -1,3 +1,4 @@
+*** All code are in terminal ***
 # Step 1 - (Create a myrepo directory):
 
 **(mkdir)**
